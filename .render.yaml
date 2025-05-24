@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: kisii-primary-school
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn kisii_school.wsgi

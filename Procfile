@@ -1,0 +1,1 @@
+web: gunicorn kisii_school.wsgi
